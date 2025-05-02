@@ -1,10 +1,10 @@
-# 📊 OFI Feature Construction
+## OFI Feature Construction
 
 This project computes **Order Flow Imbalance (OFI)** features from high-frequency order book data. It helps quantify short-term buying vs. selling pressure in financial markets — a core signal in many market microstructure and predictive models.
 
 ---
 
-## 🧮 How is OFI Calculated?
+## How is OFI Calculated?
 
 For each timestamp (row in the dataset), OFI is computed by comparing the **current** and **previous** values of bid and ask **price** and **size**.
 
